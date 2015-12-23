@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /Bloggy1ff
+exclude: ["Readme.md"]
