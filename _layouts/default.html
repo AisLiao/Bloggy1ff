@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <link href='http://api.youziku.com/webfont/CSS/5684d1d7f629dd03c03556e0' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="http://youzikuwebfont.oss-cn-beijing.aliyuncs.com/api.lib.min.js"></script>
 
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -18,8 +18,10 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/AisLiao/Bloggy1ff">View on GitHub</a>
 
-          <h1 id="project_title">吃饼干</h1>
-          <h1 style="font-family:'winmantun230019bfcf9ed4554';" >吃饼干</h1>
+          <h1 id="project_title">KHAWER爱吃饼干22222</h1>
+          <h1 id="project_title2">KHAWER爱爱爱吃饼干</h1>
+          <h1 style="font-family:'winmantun230019bfcf9ed4554';" >Khawer吃饼干!!!!!</h1>
+
           <h2 id="project_tagline"></h2>
 
             <section id="downloads">
@@ -30,13 +32,16 @@
     </div>
       {{content}}
       <script type="text/javascript">
-  $youziku.load("#project_title", "a63362567852448885cc4be8bce43ef8", "winmantun23001");
-/*$youziku.load("#id2", "a63362567852448885cc4be8bce43ef8", "winmantun23001");*/
-/*$youziku.load(".class1", "a63362567852448885cc4be8bce43ef8", "winmantun23001");*/
-/*$youziku.load(".class2", "a63362567852448885cc4be8bce43ef8", "winmantun23001");*/
-/*．．．*/
-   $youziku.draw();
-</script>
+    $youzikuapi.asyncLoad("http://api.youziku.com/webfont/FastJS/yzk_CEC448CE0B40CA1A", function () {
+    $youziku.load("project_title2", "f3907d43d52241e1887fabe4e7d6d203", "minijianyaya");
+  /*$youziku.load("#id2", "f3907d43d52241e1887fabe4e7d6d203", "minijianyaya");*/
+  /*$youziku.load(".class1", "f3907d43d52241e1887fabe4e7d6d203", "minijianyaya");*/
+  /*$youziku.load(".class2", "f3907d43d52241e1887fabe4e7d6d203", "minijianyaya");*/
+  /*．．．*/
+    $youziku.draw();
+    })
+  </script>
+
 
   </body>
   </html>
